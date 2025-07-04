@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "../Image";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -273,11 +273,11 @@ const Footer = () => {
                     Privacy Policy
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="#" className="hover:text-primary">
                     Support
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </motion.div>
 

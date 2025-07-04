@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import ThemeToggler from "./ThemeToggler";
 // import ThemeToggler from "./ThemeToggler";
+
 import menuData from "./menuData";
 
 const Header = () => {

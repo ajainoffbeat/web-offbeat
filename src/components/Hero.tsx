@@ -1,6 +1,6 @@
 // import Image from "./Image";
 import { useState } from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // import ReactPlayer from "react-player";
 const Hero = () => {
   const [email, setEmail] = useState("");
