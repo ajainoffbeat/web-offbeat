@@ -7,14 +7,7 @@ interface Tab {
   currId: number;
 }
 
-const tabs = [
-  "Offbeat Software Solutions",
-  "Why Offbeat?",
-  "Our Services",
-  "Our Vision",
-];
-
-const Sidebarbutton = ({ currTab, setCurrTab, currId }: Tab) => {
+const Sidebarbutton = ({ currId }: Tab) => {
   const navigate =useNavigate();
   return (
     <div>

@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import Image from "../Image";
 import SectionHeader from "../Common/SectionHeader";
-import { useState } from "react";
+// import { useState } from "react";
 const Integration = () => {
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
 
   return (
     <>
