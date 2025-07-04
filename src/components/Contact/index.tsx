@@ -60,8 +60,8 @@ const Contact = () => {
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
-                method="POST"
+                // action="https://formbold.com/s/unique_form_id"
+                // method="POST"
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input

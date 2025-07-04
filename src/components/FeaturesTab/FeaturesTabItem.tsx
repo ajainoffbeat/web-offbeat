@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 // import Image from "../Image";
 
 const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
-  const { title, desc1, desc2, image, imageDark } = featureTab;
+  const { title, desc1, desc2, image } = featureTab;
 
   return (
     <>
@@ -25,7 +25,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
           <motion.img
             src={image}
             alt={title}
-            className="rounded-[20px] w-[94%] h-[400px] shadow-[0_3px_5px_rgba(0,0,0,1)]"
+            className="rounded-[20px] w-[94%] h-[400px]"
             initial={{ y: -10 }}
             animate={{ y: 10 }}
             transition={{
